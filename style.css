@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#rect
+{
+
+    position: absolute;
+    top:40%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    height:60%;
+    width:60%;
+
+}
+.imagediv
+{
+    position: absolute;
+    height:270px;
+    width:200px;
+    overflow: hidden;
+}
+.imagediv img{
+    transform:translateY(100%);
+    width:100%;
+    height:100%;
+    object-fit: cover;
+
+}
